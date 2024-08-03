@@ -40,13 +40,11 @@ const About = () => {
         variants={fadeIn(",", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam modi
-        laudantium illum esse architecto! Numquam rem veritatis porro quae saepe
-        illo modi eos explicabo corporis pariatur fugit iste quo ullam
-        accusantium laboriosam blanditiis, velit minus vitae voluptatibus natus
-        beatae! Aliquid.
+       Skilled and Driven Front-End Developer with a Passion for Innovation
+I am a highly motivated Front-End Developer specializing in developing innovative web applications. My skill set includes proficiency in both Front-End Development and Front-End Frameworks, such as ReactJs. Additionally, I have a background in Agile and Scrum, giving me a comprehensive understanding of the entire software development life cycle. With a solid foundation in programming languages, frameworks, and databases, I excel at turning complex requirements into efficient and user-friendly solutions. Currently, I am also expanding my expertise by gaining knowledge and experience in backend development using Node.js and Express, aiming to become a more versatile developer.
+
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-between">
         {services.map((service, index) => {
          return <ServiceCard key={service.title} index={index} {...service} />;
         })}
